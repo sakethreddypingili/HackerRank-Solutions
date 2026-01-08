@@ -1,13 +1,4 @@
-
-***
-
-## 3️⃣ solution.c
-
-```c
 #include <stdio.h>
-#include <string.h>
-#include <math.h>
-#include <stdlib.h>
 
 /**
  * Calculates the alphabetical distance between two characters
