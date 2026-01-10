@@ -9,7 +9,7 @@
 char calculate(char char1, char char2) {
     int cal = char1 - char2;              // Calculate ASCII difference
     int value = (cal < 0) ? -cal : cal;   // Apply absolute value using ternary
-    return value;
+    return value; 
 }
 
 int main() {
