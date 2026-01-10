@@ -24,7 +24,7 @@ int main() {
     /* * Character Types
      * Printed as integers (%d) to show numeric range.
      * char promotes to int in printf.
-     */
+     */ 
     printf("char: %d to %d\n", CHAR_MIN, CHAR_MAX);
     printf("unsigned char: 0 to %d\n", UCHAR_MAX);
     
