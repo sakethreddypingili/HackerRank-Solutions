@@ -9,7 +9,7 @@ char convert(char b) {
     return b - 32;  // ASCII difference between lowercase and uppercase
 }
 
-int main() {
+int main() { 
     char a;              // Input lowercase character
     scanf("%c", &a);     // Read single character from input
     
