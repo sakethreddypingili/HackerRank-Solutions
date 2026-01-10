@@ -9,7 +9,7 @@
  * Last digit extraction: number % 10 gives units place digit
  * Maximum sum: 9 + 9 = 18 (no overflow risk)
  * 
- * @param a First integer (0 ≤ a ≤ 10^9)
+ * @param a First integer (0 ≤ a ≤ 10^9) 
  * @param b Second integer (0 ≤ b ≤ 10^9)  
  * @return Sum of last digits (0-18)
  */
