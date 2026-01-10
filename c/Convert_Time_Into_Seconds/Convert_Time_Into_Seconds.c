@@ -13,7 +13,7 @@
  * @param seconds The number of seconds (0-59)
  * @return The total time in seconds
  */
-int toSeconds(int hours, int minutes, int seconds) {
+int toSeconds(int hours, int minutes, int seconds) { 
     // Clamp hours to valid range [0, 99]
     hours = (hours < 0) ? 0 : hours;    
     hours = (hours >= 100) ? 99 : hours;
