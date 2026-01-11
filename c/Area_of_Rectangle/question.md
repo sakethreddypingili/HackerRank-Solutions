@@ -7,7 +7,7 @@
 - **Language Used:** C
 
 ## Problem Statement
-Calculate the area of a rectangle given its length and width [web:16]. The solution must implement a separate function to perform the calculation rather than computing the area directly in the main function. This problem emphasizes modular programming principles and proper function design in C.
+Calculate the area of a rectangle given its length and width. The solution must implement a separate function to perform the calculation rather than computing the area directly in the main function. This problem emphasizes modular programming principles and proper function design in C.
 
 ## Input Specification
 - **Input Type:** Two space-separated integers
@@ -51,7 +51,6 @@ A C function consists of:
 3. **Function Call:** Invokes the function from another part of the program
 
 ## Logic & Reasoning
-
 The solution separates concerns by delegating the calculation to a dedicated function. The main function handles input/output operations, while the area function performs the mathematical computation. This approach:
 
 - Adheres to the single responsibility principle
@@ -61,7 +60,6 @@ The solution separates concerns by delegating the calculation to a dedicated fun
 The area calculation uses integer multiplication, which is safe within the given constraints (maximum result: 10⁶ × 10⁶ = 10¹², well within int range on most systems).
 
 ## Step-by-Step Algorithm
-
 1. **Declare function prototype (optional but recommended):**
    - Specify return type as int
    - Define parameters: length and width (both int)
@@ -81,12 +79,10 @@ The area calculation uses integer multiplication, which is safe within the given
 4. **Return success status from main**
 
 ## Time & Space Complexity
-
 - **Time Complexity:** O(1) - Single multiplication operation with constant-time I/O
 - **Space Complexity:** O(1) - Fixed number of integer variables regardless of input size
 
 ## Sample Execution
-
 ### Example 1
 **Input:** `5 4`
 
