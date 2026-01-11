@@ -7,7 +7,7 @@
 - **Language Used:** C
 
 ## Problem Statement
-Given three integers representing hours, minutes, and seconds, convert the entire time duration into total seconds [web:5]. The program must read three space-separated integers, calculate the total seconds using proper time conversion formulas, and output the result in a specified format. The solution must use a separate function for the conversion logic rather than implementing everything in the main function.
+Given three integers representing hours, minutes, and seconds, convert the entire time duration into total seconds. The program must read three space-separated integers, calculate the total seconds using proper time conversion formulas, and output the result in a specified format. The solution must use a separate function for the conversion logic rather than implementing everything in the main function.
 
 ## Input Specification
 - **Input Type:** Three space-separated integers (hours, minutes, seconds)
@@ -32,12 +32,12 @@ Given three integers representing hours, minutes, and seconds, convert the entir
 ## Core Concept(s) Used
 
 ### Time Unit Conversion
-Time conversion follows standard relationships between units [web:5][web:9]:
+Time conversion follows standard relationships between units:
 - **1 hour = 3,600 seconds** (60 minutes × 60 seconds)
 - **1 minute = 60 seconds**
 - **Total seconds = (hours × 3,600) + (minutes × 60) + seconds**
 
-This formula converts any time duration in HH:MM:SS format into a single integer representing total seconds [web:11].
+This formula converts any time duration in HH:MM:SS format into a single integer representing total seconds.
 
 ### Function Modularity and Separation of Concerns
 The problem explicitly requires implementing the conversion logic in a separate function, demonstrating:
@@ -58,10 +58,10 @@ The solution follows a straightforward approach:
 4. **Return and display** the result
 
 **Why use the formula (hours × 3,600) + (minutes × 60) + seconds?**
-- Hours are converted to seconds by multiplying by 3,600 (since 1 hour = 60 minutes and 1 minute = 60 seconds) [web:9]
-- Minutes are converted to seconds by multiplying by 60 [web:12]
+- Hours are converted to seconds by multiplying by 3,600 (since 1 hour = 60 minutes and 1 minute = 60 seconds)
+- Minutes are converted to seconds by multiplying by 60
 - Existing seconds are added directly
-- This gives the total time duration in seconds [web:5]
+- This gives the total time duration in seconds
 
 **Why include validation logic?**
 - The template code includes clamping logic to ensure hours stay below 100 and minutes/seconds stay below 60
