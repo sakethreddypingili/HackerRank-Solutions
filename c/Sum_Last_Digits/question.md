@@ -95,7 +95,7 @@
 
 ## Learning Outcome
 
-- Master modulo operator `%` for digit extraction [web:15][web:16]
+- Master modulo operator `%` for digit extraction
 - Understand exact function signature requirements in coding platforms
 - Apply precise output formatting matching problem specifications
 - Recognize when O(1) operations suffice for large input ranges
