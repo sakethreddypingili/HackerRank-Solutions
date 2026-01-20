@@ -19,7 +19,7 @@ int main() {
             // Even numbers are printed as negative
             printf("%d ", -i);
         } else {
-            // Odd numbers are printed as positive
+            // Odd numbers are printed as positive 
             printf("%d ", i);
         }
     }
