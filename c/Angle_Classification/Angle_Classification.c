@@ -7,7 +7,7 @@
 int main() {
     int x;
     
-    // Read the input angle
+    // Read the input angle 
     if (scanf("%d", &x) != 1) {
         return 0;
     }
