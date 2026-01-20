@@ -2,7 +2,7 @@
 
 /**
  * Alternate Positive/Negative Sequence
- * Prints i if odd, -i if even.
+ * Prints i if odd, -i if even. 
  */
 int main() {
     int n;
