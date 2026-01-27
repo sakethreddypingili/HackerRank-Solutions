@@ -15,6 +15,7 @@ Calculate the area of a rectangle given its length and width. The solution must 
   - 1 ≤ length ≤ 10⁶
   - 1 ≤ width ≤ 10⁶
 
+
 ## Output Specification
 - **Output Type:** Formatted string
 - **Output Format:** `The area is: {result} units`
